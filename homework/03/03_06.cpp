@@ -1,3 +1,13 @@
+﻿/*
+课程：程序设计_2023
+课程作业：03_06
+作业题目：03_06.cpp Bonus 1
+求一元二次方程 ax² + bx + c = 0 的根。
+输入：三个 double 类型对象 a、b、c
+输出：判定 a 是否为 0 / 无实根 / 两个相同实根 / 两个不同实根
+提示：
+*/
+
 #include <iostream>
 using namespace std;
 
