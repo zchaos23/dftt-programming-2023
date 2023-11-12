@@ -22,6 +22,7 @@ bool isSafe(vector<int>& queens, int i, int j) {
     }
     return true;
 }
+
 void eightQueens(int i, vector<int>& queens) {
     if (i == 8) {
         results.push_back(queens);
