@@ -16,16 +16,16 @@ int main() {
 
     // 遍历字符串，进行大小写字母的互换
     for (char& ch : input) {
-        if (std::isupper(ch)) {
-            ch = std::tolower(ch);
+        if (isupper(ch)) {
+            ch = tolower(ch);
         }
-        else if (std::islower(ch)) {
-            ch = std::toupper(ch);
+        else if (islower(ch)) {
+            ch = toupper(ch);
         }
     }
 
     // 输出结果
-    std::cout << input << std::endl;
+    cout << input << endl;
 
     return 0;
 }
