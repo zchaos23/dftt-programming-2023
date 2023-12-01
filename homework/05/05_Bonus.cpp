@@ -58,7 +58,7 @@ public:
 
 	double calculateArea() const override {
 		double s = (sideA + sideB + sideC) / 2;
-		return std::sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+		return sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
 	}
 
 	double calculatePerimeter() const override {
